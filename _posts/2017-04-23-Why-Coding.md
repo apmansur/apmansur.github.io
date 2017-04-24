@@ -1,0 +1,12 @@
+---
+layout: post
+title: Why Transition to Another Industry?
+---
+
+<p>
+So a little bit about me,  I am 24 years old and I graduated with a B.S. in Chemistry from Rice University in 2015 and right out of college I took a job in the oil and gas industry working as a production chemist (I job I still have today). My job consists of developing solutions to flow assurance problems encountered in oil and gas production. Contrary to popular belief, I do not work in a lab but rather from a computer and I spend my days interfacing with customers and vendors from the across the U.S. and South America. I have been at my job a little less than 2 years and although I enjoy the flexibility (and financial reward lol) I really would like more choices in terms of where I could live (not too many options in oil and gas) and I would also like more freedom to be creative and explore my ideas.
+
+<br>
+Okay with that said, I started getting into coding my senior year of university while leading an interdisciplinary team for a design project. Seeing what my comp sci teammates could do with coding was really inspiring and from that moment I started to read up on what coding was and what I could do with it. About 7 months later I started to teach myself with free resources online and even started building simple websites using just HTML and CSS (with a little PHP for some backend magic). But, my motivation was not always great (I mean I had a full time job, not easy to come home and code after work!) so I decided I needed more structure to push me in the right direction. I also fell into the trap of wanting to learn more and more instead of just sitting down and building porjects I thought up. I would tell myself "okay, I'll build it when I know a little more so it'll be easier" but the thing is I never felt I had read enough! So I knew it was time to make a change! I did not want to go back to school (I had recently graduated so it seemed super unappealing) so I did my research and found that boot camps would be a great fit. I would learn in a short amount of time what I needed to know to get my first coding job and would not have to go back to university! After that was decided, I needed to figure out which camp to go to… 
+
+</p>
