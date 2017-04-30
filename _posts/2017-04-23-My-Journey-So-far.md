@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Bloc?
+title: My Journey So Far
 ---
 
 When I started Bloc, I had some experience under my belt from my self taught days so I got through the first module of the curriculum with very little difficulty. In the second module there was still a lot of hand holding while I built a very simplified music playing app called [Bloc Jams](https://github.com/apmansur/bloc-jams), so although I ran into a couple of road bumps (especially trying to get my seek bars to work) it was not anything I thought was that challenging. 
