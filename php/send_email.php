@@ -35,15 +35,11 @@ if(isset($_POST['email'])) {
     // validation expected data exists
     //change depedending on what you want in the form
  
-    if(!isset($_POST['first_name']) ||
- 
-        !isset($_POST['last_name']) ||
+    if(!isset($_POST['full_name']) ||
  
         !isset($_POST['email']) ||
  
-        !isset($_POST['business']) ||
- 
-        !isset($_POST['comments'])) {
+        !isset($_POST['message'])) {
  
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
  
@@ -51,15 +47,11 @@ if(isset($_POST['email'])) {
  
      
  
-    $first_name = $_POST['first_name']; // required
+    $name = $_POST['full_name']; // required
  
-    $last_name = $_POST['last_name']; // required
+    $email = $_POST['email']; // required
  
-    $email_from = $_POST['email']; // required
- 
-    $business = $_POST['business']; // not required
- 
-    $comments = $_POST['comments']; // required
+    $message = $_POST['message']; // required
  
      
  
@@ -67,27 +59,22 @@ if(isset($_POST['email'])) {
  
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
  
-  if(!preg_match($email_exp,$email_from)) {
+  if(!preg_match($email_exp,$email)) {
  
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'The email you entered does not appear to be valid.<br />';
  
   }
  
     $string_exp = "/^[A-Za-z .'-]+$/";
  
-  if(!preg_match($string_exp,$first_name)) {
+  if(!preg_match($string_exp,$full_name)) {
  
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
- 
-  }
- 
-  if(!preg_match($string_exp,$last_name)) {
- 
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The name you entered does not appear to be valid.<br />';
  
   }
  
-  if(strlen($comments) < 2) {
+ 
+  if(strlen($message) < 2) {
  
     $error_message .= 'The Comments you entered do not appear to be valid.<br />';
  
@@ -113,15 +100,11 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
+    $email_message .= "Full Name: ".clean_string($full_name)."\n";
  
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+    $email_message .= "Email: ".clean_string($email)."\n";
  
-    $email_message .= "Email: ".clean_string($email_from)."\n";
- 
-    $email_message .= "Business: ".clean_string($business)."\n";
- 
-    $email_message .= "Comments: ".clean_string($comments)."\n";
+    $email_message .= "Comments: ".clean_string($message)."\n";
  
      
  
@@ -129,9 +112,9 @@ if(isset($_POST['email'])) {
  
 // create email headers
  
-$headers = 'From: '.$email_from."\r\n".
+$headers = 'From: '.$email."\r\n".
  
-'Reply-To: '.$email_from."\r\n" .
+'Reply-To: '.$email."\r\n" .
  
 'X-Mailer: PHP/' . phpversion();
  
