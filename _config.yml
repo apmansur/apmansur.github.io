@@ -10,8 +10,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <h1>Lifelong Learner and Aspiring Developer</h1>
-     <p>I'm a badass chemist who recently decided to transition into tech. Currently developing my skills in Javascript, JQuery, and AngualarJS.</p>
+     <h1>Lifelong Learner and Business Analyst </h1>
+     <p>I'm an expert problem solver and fast learner always looking to grow.</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
@@ -27,7 +27,7 @@ theme_settings:
   github: apmansur # github profile name, e.g. "madebymunsters"
   google_plus:
   instagram:
-  linkedin:  https://www.linkedin.com/in/andrea-mansur-36267575/ # Full URL
+  linkedin:  https://www.linkedin.com/in/apmansur/ # Full URL
   pinterest:
   reddit:
   soundcloud:
